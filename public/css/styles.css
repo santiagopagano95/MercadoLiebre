@@ -1,0 +1,526 @@
+/*     inicio del header      */
+
+*{
+    box-sizing: border-box;
+}
+
+
+.boxHeaderArriba{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.logo{
+    width: 100px;
+    }
+.busqueda{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 2px;  
+}
+.busquedaTexto{
+    border: solid 2px white;
+    font-size: smaller;
+    background-color: white;
+}
+.busquedaBoton{
+border: solid 2px white;
+display: inline;
+margin: 0 0 0 -2px ;
+height: 21px;
+background-color: white;
+}
+.fa-solid{
+    font-size: smaller;
+}
+
+.tituloCuotas{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-weight: 400;
+}
+
+.navegador{
+    display: none;
+}
+.hamb{
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+    background-color: #000FE2;
+    color: #fff159;
+    width: 30px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Roboto' , sans-serif;
+    background-color: rgb(237, 237, 237);
+}
+header{
+    background-color: #fff159;
+}
+
+/*     fin del header      */
+
+/*     inicio del main     */
+main{
+    display: flex;
+    justify-content: center;
+}
+#fotoBanner{
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.tituloBasado{
+    font-size: larger;
+    opacity: 75%;
+    text-align: center;
+}
+.tarjetaProducto{
+    border: solid 1px lightgray;
+    background-color: white;
+    margin: 5px;
+    width: 280px;
+}
+
+.fotoProducto{
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#fotoProducto{
+    width: 270px;
+    text-align: center;
+
+}
+
+.tarjetaInfoProducto{
+    border: solid 1px #ebebeb;
+    
+}
+.nombreProducto{
+    margin-left: 5%;  
+}
+
+
+.tituloOfertas{
+    font-size: larger;
+    opacity: 75%;
+    text-align: center;
+}
+.cajaEnvioPrecioYDescuento{
+    margin: 15px;
+}
+.fa-truck{
+    color: green;
+    padding: 5px;
+    border: solid 1px green;
+    border-radius: 15px;
+    margin-left: 160px;
+}
+
+
+.precioProducto{
+    width: 30%;
+}
+.descuentoProducto{
+    color: green;
+    width: auto;
+}
+.precioYDescuento{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nombreProducto{
+    font-size: large;
+    opacity: 80%;
+    display: none;
+}
+
+.boxFormularioDeRegistro{
+    display: flex;
+}
+.formularioDeRegistro{
+    display: block;
+}
+.controls{
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 8px;
+}
+
+.controlsLogin{
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 8px;
+    width: 300px;
+}
+.botonAceptarLogin{
+    background-color: #1259c3;
+    border: solid 1px white;
+    color: white;
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+    width: 300px;
+}
+.checkboxIntereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.botonAceptarSignUp{
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+    /*     fin del main            */
+    /*     inicio del footer       */
+
+    footer{
+        background-color: white;
+        opacity: 80%;
+    
+    }
+    .boxFooter{
+        display: block;
+        justify-content: center;
+    padding: 2px;
+    }
+
+    .copyright{
+        font-size: small;
+        display: block;
+        text-align: center;
+    }
+
+    .iconoFooter{
+        font-size: 2em;
+        display: block;
+        margin: auto;
+        color: #1259c3;
+    }
+    .seccionFooter{
+    display: block;
+    text-align: center;
+    }
+
+    /*     fin del footer       */
+
+@media screen and (min-width: 426px) and  (max-width: 768px) {
+
+    /*     inicio del header       */
+    .boxHeaderArriba , .navegador{
+        margin: auto;
+    }
+
+    .boxHeaderArriba{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 200px;
+    }
+    .busquedaTexto{
+        width: 200px;
+        font-size: medium;
+    }
+    .busquedaBoton{
+    display: inline;
+    height: 24px;
+    }
+    .tituloCuotas{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamb{
+        display: none;
+    }
+    .navegador{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navegador a{
+        font-size: 14px;
+    }
+
+    .navegador ul{
+        display: flex;
+        margin: 2px;
+    }
+    .navegador li{
+        margin: 0 8px;
+    }
+    
+    .barraDeNavegacion1{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    .barraDeNavegacion2{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+
+    /*     fin del header           */
+    /*     inicio del main          */
+    .tarjetaProducto{
+        display: inline-block;
+        box-shadow : 0px 0px 10px gray;
+        border: solid 1px lightgray;
+        background-color: white;
+        margin: 10px;
+        width: 230px;
+    }
+    
+    .fotoProducto{
+        width: 230px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    #fotoProducto{
+        width: 220px;
+        text-align: center;
+    
+    }
+    .boxMain{
+        align-items: center;
+    }
+    .basadoEnTuUltimaVisita{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionDeOfertas{
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombreProducto{
+        display: block;
+    }
+    main{
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    /*     fin del main     */
+    /*     inicio del footer       */
+    .seccionFooter{
+        width: 30%;
+        padding: 1%;
+        border: solid 1px lightgray;
+        display: inline-block;
+    }
+    .tituloFooter{
+        font-size: medium;
+    }
+    .parrafoFooter{
+        font-size: small;
+    }
+    .boxFooter{
+        display: flex;
+        align-items: center;
+    }
+    /*     fin del footer       */
+   
+
+    
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    /*     inicio del header       */
+    .boxHeaderArriba , .navegador{
+        margin: auto;
+    }
+
+    .boxHeaderArriba{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 200px;
+    }
+
+    .busqueda{
+        grid-row: 1;
+
+    }
+    .busquedaTexto{
+        width: 400px;
+        font-size: medium;
+    }
+    .busquedaBoton{
+    display: inline;
+    height: 24px;
+    }
+    .tituloCuotas{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamb{
+        display: none;
+    }
+    .navegador{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navegador a{
+        font-size: 14px;
+    }
+
+    .navegador ul{
+        display: flex;
+        margin: 2px;
+    }
+    .navegador li{
+        margin: 0 8px;
+    }
+    
+    .barraDeNavegacion1{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    .barraDeNavegacion2{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+
+    /*     fin del header           */
+    /*     inicio del main          */
+    .tarjetaProducto{
+        display: inline-block;
+        box-shadow : 0px 0px 10px gray;
+        border: solid 1px lightgray;
+        background-color: white;
+        margin: 5px;
+        width: 230px;
+        height: auto;
+    }
+    
+    .fotoProducto{
+        width: 230px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    #fotoProducto{
+        width: 220px;
+        text-align: center;
+        z-index: 4;
+    
+    }
+    .basadoEnTuUltimaVisita{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionDeOfertas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombreProducto{
+        display: block;
+        color: black;
+        opacity: 80%;
+    } 
+
+    main{
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    /*     fin del main     */
+    /*     inicio del footer       */
+    .seccionFooter{
+        width: 30%;
+        padding: 1%;
+        border: solid 1px lightgray;
+        display: inline-block;
+    }
+    .tituloFooter{
+        font-size: medium;
+    }
+    .parrafoFooter{
+        font-size: small;
+    }
+    .boxFooter{
+        display: flex;
+        align-items: center;
+    }
+    /*     fin del footer       */
+   
+    }
+
+    @media screen and (min-width: 1200px) {
+        /*     inicio del header       */
+
+        .boxHeaderArriba , .navegador{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .boxHeaderArriba{
+            align-items: center;
+        }
+        .tituloCuotas{
+            max-width: none;
+            font-size: 20px;
+            font-weight: 400;
+            margin: 0%;
+        }
+
+        .navegador{
+            margin-bottom: 5px;
+        }
+        .navegador li{
+            margin: 0 12px;
+        }
+        .navegador a{
+            font-size: 20px;
+        }
+        /*     fin del header           */
+        /*      inicio del main         */
+        /*      fin del main         */
+        /*      inicio del footer         */
+        .boxFooter{
+            max-width: 1200px;
+            display: block;
+            margin: auto;
+        }
+
+
+    }
